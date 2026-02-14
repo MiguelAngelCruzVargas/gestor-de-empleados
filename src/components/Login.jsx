@@ -82,7 +82,7 @@ export default function Login({ setAuthenticated, setView }) {
             <div className="relative z-10 w-full min-h-screen grid grid-cols-1 lg:grid-cols-5">
 
                 {/* Left Side (3 columns) - Branding */}
-                <div className="hidden lg:flex lg:col-span-3 flex-col justify-between p-12 xl:p-24 bg-[#0a0f1d]/40 backdrop-blur-xl border-r border-white/5 relative">
+                <div className="hidden lg:flex lg:col-span-3 flex-col justify-between p-12 xl:p-24 bg-[#0a0f1d]/40 backdrop-blur-xl border-r border-white/5 relative overflow-hidden">
                     <div className="relative z-10">
                         <div className="flex items-center gap-3 mb-20 animate-in fade-in slide-in-from-left-4 duration-700">
                             <div className="p-2.5 bg-indigo-500 rounded-xl shadow-lg shadow-indigo-500/20">
@@ -92,9 +92,9 @@ export default function Login({ setAuthenticated, setView }) {
                         </div>
 
                         <div className="max-w-2xl space-y-8 animate-in fade-in slide-in-from-left-8 duration-1000">
-                            <h1 className="text-7xl xl:text-8xl font-black text-white tracking-tighter leading-none">
+                            <h1 className="text-5xl xl:text-7xl font-black text-white tracking-tighter leading-none">
                                 GESTIÓN DE <br />
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-indigo-300">ADMINISTRACIÓN.</span>
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-indigo-300 uppercase">ADMINISTRACIÓN.</span>
                             </h1>
                             <p className="text-slate-400 text-2xl leading-relaxed font-light max-w-xl">
                                 Infraestructura digital de alto rendimiento para el control corporativo total.
