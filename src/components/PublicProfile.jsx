@@ -1,5 +1,8 @@
 import React from 'react';
-import { User, MapPin, Phone, Briefcase, QrCode, Mail, ShieldCheck, Loader2, Heart, ArrowLeft, Fingerprint, Globe, CheckCircle2, Cpu, Zap } from 'lucide-react';
+import {
+    User, MapPin, Phone, Briefcase, QrCode, Mail, ShieldCheck,
+    Heart, ArrowLeft, Fingerprint, Globe, CheckCircle2, Cpu, Zap, Loader2
+} from 'lucide-react';
 
 export default function PublicProfile({ employee, loading, isAuthenticated, onBack }) {
     if (loading) return (

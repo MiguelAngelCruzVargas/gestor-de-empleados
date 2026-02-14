@@ -98,6 +98,17 @@ export default function App() {
   };
 
   // --- RENDER ---
+  if (loading && currentView === 'login') {
+    return (
+      <div className="min-h-screen bg-[#020617] flex items-center justify-center">
+        <div className="flex flex-col items-center gap-4">
+          <Loader2 className="w-12 h-12 text-indigo-500 animate-spin" />
+          <p className="text-indigo-300/50 font-black uppercase tracking-[0.3em] text-[10px]">Iniciando Protocolo...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-[#020617] selection:bg-indigo-500/30">
       {/* NOTIFICATIONS */}
