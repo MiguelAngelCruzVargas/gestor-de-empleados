@@ -5,10 +5,7 @@ import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import AddEmployee from './components/AddEmployee';
 import PublicProfile from './components/PublicProfile';
-<<<<<<< HEAD
-=======
 import KeepAlive from './components/KeepAlive';
->>>>>>> 1827360 (feat: implementar sistema KeepAlive y ajustes de autenticación)
 
 export default function App() {
   // --- STATE ---
@@ -116,12 +113,8 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#020617] selection:bg-indigo-500/30">
-<<<<<<< HEAD
-=======
-      {/* KEEP ALIVE HEARTBEAT */}
       <KeepAlive />
 
->>>>>>> 1827360 (feat: implementar sistema KeepAlive y ajustes de autenticación)
       {/* NOTIFICATIONS */}
       {notification && (
         <div className="fixed top-8 left-1/2 -translate-x-1/2 z-[100] animate-in slide-in-from-top-10 duration-500">
